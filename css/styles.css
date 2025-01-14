@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 102%;
+  margin: 0; /* Ensure no extra margin */
+  box-sizing: border-box; /* Includes padding in the width calculation */
+}
+
+#filter {
+  padding: 1rem;
+  text-align: center;
+}
+
+#categoryFilter {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#productList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
+  gap: 1rem; /* Add space between the cards */
+  padding: 1rem;
+  justify-content: center; /* Center the grid */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  #productList {
+    grid-template-columns: 1fr; /* Display one product per row */
+  }
+
+  .product-card {
+    width: 100%; /* Ensure the card takes full width */
+  }
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img:hover,
+.product-card img.active {
+  /* Apply zoom effect on hover or touch */
+  transform: scale(1.1); /* Zoom in */
+}
+
+@media screen and (max-width: 600px) {
+  #productList {
+    justify-content: space-around; /* Make the cards evenly spaced on mobile */
+  }
+
+  .product-card {
+    width: 100%; /* Make product cards full width on smaller screens */
+    margin: 1rem 0; /* Add top and bottom margin */
+  }
+}

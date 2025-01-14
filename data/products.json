@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Smartphone",
+    "description": "High-quality smartphone with excellent camera.",
+    "image": "images/image1.png",
+    "price": 10000,
+    "category": "Electronics"
+  },
+  {
+    "name": "Dining Table",
+    "description": "Elegant dining table made of solid wood.",
+    "image": "images/image23.jpg",
+    "price": 15000,
+    "category": "Furniture"
+  },
+  {
+    "name": "Headphones",
+    "description": "Noise-cancelling wireless headphones.",
+    "image": "images/image5.png",
+    "price": 2000,
+    "category": "Electronics"
+  },
+  {
+    "name": "Laptop",
+    "description": "Powerful laptop with high-speed processing.",
+    "image": "images/image7.jpg",
+    "price": 40000,
+    "category": "Electronics"
+  },
+  {
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with 4K support.",
+    "image": "images/image8.jpg",
+    "price": 8000,
+    "category": "Electronics"
+  },
+  {
+    "name": "Sofa",
+    "description": "Comfortable three-seater sofa with soft cushions.",
+    "image": "images/image9.jpg",
+    "price": 30000,
+    "category": "Furniture"
+  },
+  {
+    "name": "Sneakers",
+    "description": "Stylish and comfortable sneakers for casual wear.",
+    "image": "images/image10.jpg",
+    "price": 1200,
+    "category": "Footwear"
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Track your fitness and receive notifications.",
+    "image": "images/image17.jpg",
+    "price": 1500,
+    "category": "Accessories"
+  },
+  {
+    "name": "Office Chair",
+    "description": "Ergonomic office chair with adjustable features.",
+    "image": "images/image18.jpg",
+    "price": 3000,
+    "category": "Furniture"
+  },
+  {
+    "name": "Camera",
+    "description": "High-resolution camera for professional photography.",
+    "image": "images/image24.jpg",
+    "price": 45000,
+    "category": "Electronics"
+  },
+  {
+    "name": "Sunglasses",
+    "description": "Sunglasses to protect your eyes from the sun.",
+    "image": "images/image21.jpg",
+    "price": 2500,
+    "category": "Accessories"
+  },
+  {
+    "name": "Leather Boots",
+    "description": "Stylish leather boots for casual wear.",
+    "image": "images/image29.jpg",
+    "price": 3000,
+    "category": "Footwear"
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "Premium quality leather wallet with multiple compartments.",
+    "price": 1299,
+    "category": "Accessories",
+    "image": "images/image32.jpg"
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes with excellent grip and comfort.",
+    "price": 2999,
+    "category": "Footwear",
+    "image": "images/image33.jpg"
+  },
+  {
+    "name": "Wrist Band",
+    "description": "Fashionable wrist band made of durable material.",
+    "price": 499,
+    "category": "Accessories",
+    "image": "images/image39.jpg"
+  }
+]
