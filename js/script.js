@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
         displayProducts(filteredProducts);
       });
 
-      // Initialize zoom functionality after products are loaded
       initImageZoom();
     });
 
@@ -39,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
       )
       .join("");
 
-    // Reinitialize zoom functionality for the newly added images
     initImageZoom();
   }
 
@@ -48,22 +46,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const productImages = document.querySelectorAll(".product-card img");
 
     productImages.forEach((image) => {
-      // Hover effect for desktop
       image.addEventListener("mouseenter", () => {
-        image.classList.add("active"); // Add zoom effect
+        image.classList.add("active");
       });
 
       image.addEventListener("mouseleave", () => {
-        image.classList.remove("active"); // Remove zoom effect
+        image.classList.remove("active");
       });
 
-      // Touch events for mobile devices
       image.addEventListener("touchstart", () => {
-        image.classList.add("active"); // Add zoom effect
+        image.classList.add("active");
       });
 
       image.addEventListener("touchend", () => {
-        image.classList.remove("active"); // Remove zoom effect
+        image.classList.remove("active");
       });
     });
   }
